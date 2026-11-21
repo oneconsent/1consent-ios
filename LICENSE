@@ -1,0 +1,211 @@
+1CONSENT NATIVE SDK LICENCE
+Version dated 18 November 2026
+
+Copyright (c) 2026 1Consent UG (haftungsbeschränkt).
+All rights reserved, subject to the express grants below and applicable law.
+
+1. PARTIES, SCOPE AND AGREEMENT
+
+This licence (the "Licence") is between 1Consent UG (haftungsbeschränkt),
+Ernst-Vogler-Weg 9, 83607 Holzkirchen, Germany, registered with Amtsgericht
+München under HRB 315682 ("1Consent"), and the business customer identified
+in the applicable 1Consent account or order ("you").
+
+The "SDK" means the 1Consent-owned native SDK materials supplied with this
+Licence: the Android library app.oneconsent:oneconsent-android, the OneConsent
+binary Swift package, and @1consent/react-native, including their supplied
+bindings, configuration plugin, resources and accompanying documentation.
+Third-party components are addressed separately in section 6.
+
+An "Application" is an application you own or are authorised to develop or
+manage for a client, registered under the appropriate 1Consent account and
+used within the entitlements of that account.
+
+The "Service Agreement" means the 1Consent terms and any order validly
+agreed with you for the relevant account. This Licence forms part of that
+agreement when validly incorporated and accepted. A person accepting for
+an organisation must have authority to bind it. Consumer end users of an
+Application are not required to hold a 1Consent account; their permitted
+execution of the embedded SDK is addressed in section 3.
+
+A separately signed agreement expressly varying this Licence prevails to
+that extent. Otherwise, this Licence governs SDK-specific use and
+distribution rights, and the Service Agreement governs hosted services,
+plans, payment, support and the other matters it addresses. Nothing here
+reduces a mandatory legal right or a remedy expressly agreed with you.
+
+2. LICENCE GRANT AND ACCOUNT REQUIREMENT
+
+During your Service Agreement, while you maintain a valid 1Consent business
+account, 1Consent grants you a limited, non-exclusive, worldwide licence to:
+
+(a) download, install, copy and use the SDK to develop, integrate, test and
+    operate your Applications using the SDK's documented interfaces;
+(b) reproduce and distribute the SDK solely as an embedded component of
+    those Applications, as described in section 3; and
+(c) retain reasonable development, build-cache, archival and backup copies
+    for those permitted purposes.
+
+No separate SDK licence royalty is charged for these rights. This does not
+make the hosted service, usage, features, support or a subscription free.
+Those remain subject to the Service Agreement, the applicable plan and its
+entitlements. This Licence does not grant additional account capacity,
+access to another customer's account, or authority to bypass service controls.
+
+You may permit your personnel and contractors, including build and hosting
+providers, to handle SDK copies solely for these permitted purposes on your
+behalf. They must be bound to protect the SDK and observe the applicable
+restrictions. You remain responsible for their use. This permission does not
+give them an independent right to reuse or redistribute the SDK for others.
+
+3. DISTRIBUTION INSIDE APPLICATIONS
+
+You may distribute the SDK's executable or object code inside an Application
+through app stores, enterprise distribution, your own application-download
+channels and the service providers needed for that distribution. You may
+charge for the Application. This is permission to distribute an Application
+containing the SDK, not to sell or offer the SDK as a separate product.
+
+You may grant your Application's end users the right to execute the embedded
+SDK solely as part of the Application. End users do not obtain a standalone
+SDK licence, developer account, or independent right to extract, modify,
+repackage or redistribute it. Applicable mandatory rights remain unaffected.
+
+Normal processing by supported application build tools is permitted solely
+to build and distribute the Application. This includes linking, app-level
+shrinking or obfuscation, stripping debug symbols, packaging and code signing.
+It must preserve required notices and must not circumvent SDK or service
+controls. It does not authorise a patched SDK or an independently distributed
+SDK variant. Changes to your own Application code or configuration through
+documented interfaces do not constitute changes to the SDK.
+
+You must retain the SDK's copyright, licence and third-party notices in the
+materials distributed with the Application in an appropriate accessible form.
+This does not restrict documented consent-interface configuration options.
+
+4. RESTRICTIONS
+
+Except as expressly permitted here, separately agreed in writing, authorised
+under a third-party licence, or permitted by mandatory law, you must not:
+
+(a) publish, mirror, resell, rent, sublicense, repackage or distribute the SDK
+    as a standalone library, package, development kit or SDK-hosting service;
+(b) modify the SDK's binaries or 1Consent-owned source materials, create
+    derivative SDK versions, or distribute altered SDK implementations;
+(c) reverse engineer, decompile, disassemble or attempt to derive non-public
+    source code from the SDK;
+(d) remove or obscure SDK copyright, licence, ownership or third-party
+    notices, or misrepresent the origin or ownership of the SDK; or
+(e) circumvent account authorisation, tenant separation, technical access
+    controls, usage accounting or other restrictions of the hosted service.
+
+The limited handling of SDK copies by your authorised providers under
+sections 2 and 3 is not prohibited standalone redistribution. Distribution
+by 1Consent and its authorised SDK distribution channels is governed by
+their separate authorisation from 1Consent.
+
+5. MANDATORY SOFTWARE RIGHTS
+
+Nothing in this Licence restricts rights that cannot lawfully be excluded
+or limited by contract. This includes necessary backup copies, permitted
+observation, study or testing of a program, and decompilation for
+interoperability where the applicable statutory conditions are met.
+In particular, sections 69d, 69e and 69g of the German Copyright Act remain
+applicable. No prior approval or notice to 1Consent is required where that
+would unlawfully condition exercise of such a right.
+
+6. THIRD-PARTY COMPONENTS
+
+Third-party components supplied with or used by the SDK remain governed by
+their applicable separate licences. This Licence does not replace those
+licences or restrict rights they grant to those components. Applicable
+copyright, attribution and licence-notice requirements must be preserved.
+This Licence grants rights only to the extent 1Consent is entitled to grant
+them; it does not change the terms of an independent platform or vendor SDK.
+
+7. OWNERSHIP
+
+1Consent and its licensors retain ownership of the SDK and their respective
+intellectual property rights. SDK copies are licensed, not sold. No right to
+non-public source code is granted. Rights not expressly granted are reserved,
+subject to section 5 and applicable third-party licences.
+
+You retain your rights in your Application, your configuration and your own
+code. No trademark licence or endorsement is granted beyond the use needed
+to retain notices and identify the SDK accurately.
+
+8. APPLICATION RESPONSIBILITIES AND DATA
+
+The SDK is a technical integration tool. You are responsible for selecting
+and testing your Application's configuration, interfaces, notices, vendor
+integrations and handling of the choices communicated through the SDK.
+Using the SDK does not transfer those decisions to 1Consent.
+
+This software licence does not itself authorise processing of personal data
+or establish an end user's permission. Data processing and the hosted
+service are governed by the applicable Service Agreement, data processing
+terms and privacy information. The rights and terms of independent vendors
+remain separate.
+
+9. SUPPORT, WARRANTIES AND LIABILITY
+
+Agreed features, supported versions, support, availability, defect remedies
+and liability are governed by the Service Agreement and applicable law.
+This Licence does not create a separate service-level commitment or a new
+monetary liability cap, and does not reduce an expressly agreed remedy.
+
+Nothing here excludes or limits liability for intent or gross negligence;
+injury to life, body or health; fraudulent concealment; an expressly assumed
+guarantee; liability under the German Product Liability Act; or any other
+liability that cannot lawfully be excluded or limited. Mandatory legal
+rights remain unaffected.
+
+10. SUSPENSION, TERMINATION AND EXISTING INSTALLATIONS
+
+Suspension, termination, notice and opportunities to remedy a breach follow
+the Service Agreement and applicable law. A suspension of hosted access
+does not by itself terminate this Licence. Cancellation of a paid plan is
+not, by itself, termination of this Licence if a valid account and Service
+Agreement remain and the relevant use is still permitted by the plan.
+
+This Licence ends when the Service Agreement ends or when it is otherwise
+validly terminated under that agreement. You must then stop new SDK
+integrations and further distribution containing the SDK, except to the
+extent an agreed transition or mandatory law permits it. You may distribute
+updates that remove the SDK and must remove it from future application
+versions unless a separate authorisation applies. Private copies may be
+retained where legally required, but not used for new SDK development or
+distribution without authorisation.
+
+End users may continue to execute SDK copies that were lawfully distributed
+as embedded parts of their Applications before termination. You are not
+required by this Licence to delete software remotely from users' devices.
+This limited survival permits existing embedded execution only. It does
+not permit new SDK integrations, redistribution, new downloads or updates
+containing the SDK, and grants no continued access to a hosted service,
+paid features, updates or support. Mandatory legal restrictions still apply.
+
+Sections concerning restrictions, mandatory rights, third-party components,
+ownership, liability, existing installations and governing law survive to
+the extent necessary for their purpose.
+
+11. VERSIONS AND CHANGES
+
+This Licence version applies to SDK packages that expressly include it.
+A later SDK release may be offered under a different licence accepted through
+the applicable agreement process. Publishing revised text at a URL does not,
+by itself, retroactively change the licence for an earlier SDK copy.
+Continued access to the hosted service and support for older SDK versions
+remain subject to the Service Agreement.
+
+12. LAW AND CONTACT
+
+German law applies, excluding conflict-of-law rules that would select another
+law. The UN Convention on Contracts for the International Sale of Goods does
+not apply. If you are a merchant, a legal entity under public law, a public-law
+special fund, or have no general place of jurisdiction in Germany, the
+exclusive place of jurisdiction is Munich, Germany. 1Consent may also sue
+at your general place of jurisdiction. Mandatory jurisdiction rules remain
+unaffected.
+
+Questions about this Licence: privacy@1consent.app

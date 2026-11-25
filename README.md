@@ -1,4 +1,4 @@
-# OneConsent for iOS 0.1.0
+# OneConsent for iOS 0.1.1
 
 1Consent consent management for iOS apps. Closed source; see LICENSE.
 
